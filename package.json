@@ -1,0 +1,17 @@
+{
+  "name": "strapi-provider-upload-skygear-asset",
+  "version": "1.0.0",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "@skygear/web": "2.2.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "repository": "git@github.com:oursky/strapi-provider-upload-skygear-asset.git",
+  "author": "luihsuan <luihsuan@oursky.com>",
+  "license": "MIT"
+}
