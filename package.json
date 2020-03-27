@@ -6,7 +6,8 @@
   },
   "main": "./lib",
   "dependencies": {
-    "@skygear/web": "2.2.0"
+    "@skygear/node-client": "2.2.0",
+    "axios": "0.19.2"
   },
   "strapi": {
     "isProvider": true
