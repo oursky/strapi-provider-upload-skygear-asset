@@ -1,0 +1,34 @@
+{
+  "name": "strapi-provider-upload-skygear-asset",
+  "version": "0.1.1",
+  "description": "Strapi provider for uploading asset to skygear asset",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "keywords": [
+    "upload",
+    "strapi",
+    "skygear"
+  ],
+  "strapi": {
+    "isProvider": true
+  },
+  "scripts": {
+    "check-format": "prettier --list-different './**/*.{js,jsx,ts,tsx}'",
+    "format": "prettier --write --list-different './**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint './**/*.{js,jsx,ts,tsx}'"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "prettier": "2.0.2"
+  },
+  "dependencies": {
+    "@skygear/node-client": "2.2.0",
+    "form-data": "3.0.0",
+    "node-fetch": "2.6.0"
+  },
+  "license": "Apache-2.0"
+}
