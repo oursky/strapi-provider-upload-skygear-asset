@@ -1,0 +1,13 @@
+{
+  "name": "strapi-provider-upload-skygear-asset",
+  "version": "1.0.0",
+  "description": "Strapi provider for uploading asset to skygear asset",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "strapi": {
+    "isProvider": true
+  },
+  "license": "Apache-2.0"
+}
