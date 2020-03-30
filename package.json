@@ -6,6 +6,11 @@
     "lib": "./lib"
   },
   "main": "./lib",
+  "keywords": [
+    "upload",
+    "strapi",
+    "skygear"
+  ],
   "strapi": {
     "isProvider": true
   },
@@ -20,10 +25,10 @@
     "eslint-config-prettier": "6.10.1",
     "prettier": "2.0.2"
   },
-  "license": "Apache-2.0",
   "dependencies": {
     "@skygear/node-client": "2.2.0",
     "form-data": "3.0.0",
     "node-fetch": "2.6.0"
-  }
+  },
+  "license": "Apache-2.0"
 }
