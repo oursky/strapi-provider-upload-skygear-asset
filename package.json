@@ -9,5 +9,16 @@
   "strapi": {
     "isProvider": true
   },
+  "scripts": {
+    "check-format": "prettier --list-different './**/*.{js,jsx,ts,tsx}'",
+    "format": "prettier --write --list-different './**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint './**/*.{js,jsx,ts,tsx}'"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "prettier": "2.0.2"
+  },
   "license": "Apache-2.0"
 }
