@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-skygear-asset",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Strapi provider for uploading asset to skygear asset",
   "directories": {
     "lib": "./lib"
