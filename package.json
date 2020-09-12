@@ -28,7 +28,7 @@
   "dependencies": {
     "@skygear/node-client": "2.2.0",
     "form-data": "3.0.0",
-    "node-fetch": "2.6.0"
+    "node-fetch": "2.6.1"
   },
   "license": "Apache-2.0"
 }
